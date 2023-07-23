@@ -20,10 +20,7 @@
 
 ## Особенности проекта
 - Два целевых признака: эффективность обогащения чернового и финального концентрата; <br>
-- В качестве метрики оценки качества модели используем *sMAPE* (*Symmetric Mean Absolute Percentage Error*), рассчитываемый следующим образом: <br>
-$$ \frac{1}{N}\sum_{i=1}^{N}\frac{|y_{i}-\hat{y_{i}}|}{|y_{i}|+|\hat{y_{i}}|} $$ <br>
-sMAPE необходимо вычислить для чернового и финального этапа. Итоговая sMAPE вычисляется следующим образом: <br>
-<h1><center>sMAPE (Итоговая) = 0.25 * sMAPE (черновая) + 0.75 * sMAPE (финальная)</center></h1>
+- В качестве метрики оценки качества модели используем *sMAPE* (*Symmetric Mean Absolute Percentage Error*).
 
 ## Используемые библиотеки
-*pandas*, *numpy*, *tensorflow*, *matplotlib*, *seaborn*, *PIL*
+*pandas*, *numpy*, *matplotlib*, *seaborn*, *sklearn*
